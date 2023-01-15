@@ -1,0 +1,73 @@
+[class*="col-"] {
+width: 100%;
+}
+@media only screen and (min-width: 768px) {
+[class*="col-"] {    
+float: left;
+padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+
+body {
+font-family: 'Nunito Sans', sans-serif;
+color: black;
+background-color: white;
+}
+
+h1 {
+font-family: 'Satisfy', cursive;
+color: white;
+font-size: 4em;
+text-shadow: 3px 3px 1px black;
+background-image: url('../images/venlo-header.jpg');
+background-size: 100%;
+padding-left: 30%;
+}
+
+h2 {
+font-family: 'Satisfy', cursive;
+}
+
+img {
+float: right;
+width: 15%;
+max-width: 100%;
+height: auto;
+margin: 5px;
+border: 2px solid #11175f;
+border-radius: 8px;
+}
+
+header {
+background-color: #11175f;
+padding: 1px;
+}
+
+footer {
+    clear: left;
+    min-height: 50px;
+    color: white;
+    background-color: #11175f;
+    padding: 15px;
+}
+
+#feitjes {        
+    padding: 15px;
+}
+
+#attracties {
+    background-color: #e7f0f3;
+    padding: 15px;   
+}
